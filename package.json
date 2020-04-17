@@ -1,6 +1,6 @@
 {
-  "name": "global-proxy",
-  "version": "0.0.4",
+  "name": "@xcodebuild/global-proxy",
+  "version": "0.0.5",
   "description": "Set system proxy for mac and windows platform.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
