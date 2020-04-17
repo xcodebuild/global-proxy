@@ -1,6 +1,6 @@
 {
   "name": "@xcodebuild/global-proxy",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Set system proxy for mac and windows platform.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,7 +16,7 @@
     "clean": "rimraf lib",
     "build": "tsc",
     "prebuild": "npm run clean",
-    "prepublish": "yarn run lint"
+    "prepublish": "yarn run build"
   },
   "pre-commit": [
     "lint"
