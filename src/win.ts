@@ -12,7 +12,7 @@ export function enable(hostname: string, port: number) {
 }
 
 export function disable() {
-  return execSync(`${REG_PATH} /v ProxyEnable /t REG_DWORD /d 0 /f`)
+  return execSync(`${REG_PATH} ProxyEnable /t REG_DWORD /d 0 /f`)
 }
 
 export function status() { }
